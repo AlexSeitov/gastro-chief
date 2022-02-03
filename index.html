@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Стяжка пола, услуги" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="preload" href="fonts/Montserrat-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/Montserrat-Bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/Comfortaa-Bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="css/style.min.css" />
+    <title>website</title>
+</head>
+
+<body id="body">
+    <div class="page-wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__row">
+                    <div class="header__logo logo">
+                        <a href="">
+                            <img class="logo__img" src="images/header/header-logo.png" width="184" height="116" alt="логотип сайта гастро чиф" />
+                        </a>
+                    </div>
+
+                    <nav class="header__nav nav">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="#" class="nav__link" titke="Програмы питания">Програмы питания</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">Бизнес-ланчи</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">Gastro Shop</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="about.html" class="nav__link">О нас</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">Блог</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <div class="header__phone phone">
+                        <a href="tel:+380689494919" class="phone__link">+38 (068) 949 - 49 - 19</a>
+                        <svg class="phone__icon">
+                            <use href="images/sprite.svg#svg--phone" />
+                        </svg>
+                    </div>
+
+                    <button type="button" class="mobile-btn">
+                        <div class="mobile-btn-wrap">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        </sv>
+                </div>
+            </div>
+        </header>
+
+
+        <main>
+            <section class="main-block">
+                <div class="container">
+                    <div class="main-block__heading">
+                        <h1 class="main-block__title h1">
+                            Detox программа – <br /><span>вкусное очищение</span> <br />организма
+                        </h1>
+                        <p class="main-block__subtitle">
+                            8 бутылочек <span>натуральных</span> <br />смузи и фрешей.
+                        </p>
+                        <div class="main-block__order">
+                            <a href="" class="main-block__btn btn btn-primary">Заказать</a>
+                            <div class="main-block__price">
+                                <p>Пробный день всего:</p>
+                                <p>1199 руб.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-block__img">
+                        <picture>
+                            <source srcset="images/main-block/main-block.webp" media="(min-width: 1280px)">
+                            <source srcset="images/main-block/main-block-sm.webp" media="(min-width: 480px)">
+                            <img src="images/main-block/main-block-xs.webp" width="172" height="172" alt="бутылка смузи" />
+                            </source>
+                            </pictue>
+                    </div>
+                </div>
+            </section>
+
+            <div class="advantages section">
+                <div class="container">
+                    <div class="advantages__row">
+                        <div class="advantages__item">
+                            <svg class="advantages__icon">
+                                <use href="images/sprite.svg#svg--advantages-1" />
+                            </svg>
+                            <p class="advantages__text">Бережём природу.
+                                Эко-тара и проборы.</p>
+                        </div>
+
+                        <div class="advantages__item">
+                            <svg class="advantages__icon">
+                                <use href="images/sprite.svg#svg--advantages-2" />
+                            </svg>
+                            <p class="advantages__text">28 дней без повторения,
+                                более 300 блюд!</p>
+                        </div>
+
+                        <div class="advantages__item">
+                            <svg class="advantages__icon">
+                                <use href="images/sprite.svg#svg--advantages-3" />
+                            </svg>
+                            <p class="advantages__text">Бесплатно заменяем
+                                блюда и ингредиенты.</p>
+                        </div>
+
+                        <div class="advantages__item">
+                            <svg class="advantages__icon">
+                                <use href="images/sprite.svg#svg--advantages-4" />
+                            </svg>
+                            <p class="advantages__text">Готовим ночью, упаковываем
+                                и отправляем Вам!</p>
+                        </div>
+
+                        <div class="advantages__item">
+                            <svg class="advantages__icon">
+                                <use href="images/sprite.svg#svg--advantages-5" />
+                            </svg>
+                            <p class="advantages__text">Ежедневная удобная и бесплатная доставка с 6:00 до 10:00</p>
+                        </div>
+
+                        <div class="advantages__item">
+                            <svg class="advantages__icon">
+                                <use href="images/sprite.svg#svg--advantages-6" />
+                            </svg>
+                            <p class="advantages__text">Сохраняем Вашу энергию и до 14 часов в неделю освобождая от готовки!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="programs section">
+                <div class="container">
+
+                    <div class="tabs" tabs>
+                        <button class="tabs__btn btn btn-secondary" data-active>Программы питания</button>
+                        <button class="tabs__btn btn btn-secondary">Специальные программы</button>
+                    </div>
+
+                    <div class="tabs-content" tabs-content>
+                        <div class="tabs-content__item">
+
+                            <div class="tabs-programs" tabs>
+                                <button class="tabs-programs__tab" data-active>
+                                    <span>Express Fit</span>
+                                    <span>800 ккал</span>
+                                </button>
+                                <button class="tabs-programs__tab">
+                                    <span>slim</span>
+                                    <span>1000 ккал</span>
+                                </button>
+                                <button class="tabs-programs__tab">
+                                    <span>fitness</span>
+                                    <span>1300 ккал</span>
+                                </button>
+                                <button class="tabs-programs__tab">
+                                    <span>balance</span>
+                                    <span>1600 ккал</span>
+                                </button>
+                                <button class="tabs-programs__tab">
+                                    <span>balance +</span>
+                                    <span>1800 ккал</span>
+                                </button>
+                                <button class="tabs-programs__tab">
+                                    <span>strong</span>
+                                    <span>2000 ккал</span>
+                                </button>
+                                <button class="tabs-programs__tab">
+                                    <span>maxi fit</span>
+                                    <span>2400 ккал</span>
+                                </button>
+                            </div>
+
+                            <div class="tabs-programs-content programs-content" tabs-content>
+                                <div class="programs-content__item">
+                                    <div class="programs-content__item-wrapper">
+                                        <div class="programs-content__order-tabs order-tabs">
+                                            <div class="order-tabs__header">
+                                                <div class="order-tabs__header-title">
+                                                    Express Fit <span>800 ккал</span>
+                                                </div>
+                                                <p class="order-tabs__header-text">Программа здорового питания Express Fit. Идеально для: похудения в кратчайшие сроки, повышения энергии и сил, снижения веса при сидячем образе жизни.</p>
+                                            </div>
+                                            <div class="order-tabs__pricelist pricelist-tabs">
+                                                <ul class="pricelist-tabs__list">
+                                                    <li class="pricelist-tabs__item">
+                                                        <span class="pricelist-tabs__unit">Тестовый день</span>
+                                                        <del class="pricelist-tabs__old-price">510 руб</del>
+                                                        <span class="pricelist-tabs__price">357 руб</span>
+                                                    </li>
+                                                    <li class="pricelist-tabs__item">
+                                                        <span class="pricelist-tabs__unit">1 день</span>
+                                                        <del class="pricelist-tabs__old-price"></del>
+                                                        <span class="pricelist-tabs__price">510 руб</span>
+                                                    </li>
+                                                    <li class="pricelist-tabs__item">
+                                                        <span class="pricelist-tabs__unit">от 7 дней</span>
+                                                        <del class="pricelist-tabs__old-price">510 руб</del>
+                                                        <span class="pricelist-tabs__price">490 руб</span>
+                                                    </li>
+                                                    <li class="pricelist-tabs__item">
+                                                        <span class="pricelist-tabs__unit">от 14 дней</span>
+                                                        <del class="pricelist-tabs__old-price">510 руб</del>
+                                                        <span class="pricelist-tabs__price">470 руб</span>
+                                                    </li>
+                                                    <li class="pricelist-tabs__item">
+                                                        <span class="pricelist-tabs__unit">от 30 дней</span>
+                                                        <del class="pricelist-tabs__old-price">510 руб</del>
+                                                        <span class="pricelist-tabs__price">450 руб</span>
+                                                    </li>
+                                                    <li class="pricelist-tabs__item">
+                                                        <span class="pricelist-tabs__unit">Завтрак и ужин</span>
+                                                        <del class="pricelist-tabs__old-price"></del>
+                                                        <span class="pricelist-tabs__price">433 руб</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <button class="order-tabs__btn btn btn-primary">Заказать</button>
+                                        </div>
+                                        <div class="programs-content__schedule-tabs schedule-tabs">
+                                            <ul class="schedule-tabs__days-list">
+                                                <li class="schedule-tabs__days-item">пн</li>
+                                                <li class="schedule-tabs__days-item">вт</li>
+                                                <li class="schedule-tabs__days-item">ср</li>
+                                                <li class="schedule-tabs__days-item">чт</li>
+                                                <li class="schedule-tabs__days-item">пт</li>
+                                                <li class="schedule-tabs__days-item">сб</li>
+                                                <li class="schedule-tabs__days-item">вс</li>
+                                            </ul>
+                                            <ul class="schedule-tabs__data-list">
+                                                <li class="schedule-tabs__data-item">
+                                                    <p class="schedule-tabs__data-text">
+                                                        <span class="schedule-tabs__data-ration">Завтрак</span>
+                                                        <span>7:00 - 9:00</span>
+                                                    </p>
+                                                    <p class="schedule-tabs__data-text">
+                                                        <span>- Фриттата с сыром и кабачками</span>
+                                                    </p>
+                                                    <p class="schedule-tabs__data-weight">
+                                                        <span>170гр</span>
+                                                    </p>
+                                                </li>
+                                                <li class="schedule-tabs__data-item">
+                                                    <p class="schedule-tabs__data-text">
+                                                        <span class="schedule-tabs__data-ration">Завтрак</span>
+                                                        <span>7:00 - 9:00</span>
+                                                    </p>
+                                                    <p class="schedule-tabs__data-text">
+                                                        <span>- Фермерский йогурт</span>
+                                                        <span>- Полезное печенье из сухофруктов и орехов</span>
+                                                    </p>
+                                                    <p class="schedule-tabs__data-weight">
+                                                        <span>170гр</span>
+                                                    </p>
+                                                </li>
+                                                <li class="schedule-tabs__data-item">
+                                                    <p class="schedule-tabs__data-text">
+                                                        <span class="schedule-tabs__data-ration">Завтрак</span>
+                                                        <span>7:00 - 9:00</span>
+                                                    </p>
+                                                    <p class="schedule-tabs__data-text">
+                                                        <span>- Люля-кебаб из индейки</span>
+                                                        <span>- Летний салат с маслинами и сыром</span>
+                                                    </p>
+                                                    <p class="schedule-tabs__data-weight">
+                                                        <span>170гр</span>
+                                                    </p>
+                                                </li>
+                                                <li class="schedule-tabs__data-item">
+                                                    <p class="schedule-tabs__data-text">
+                                                        <span class="schedule-tabs__data-ration">Завтрак</span>
+                                                        <span>7:00 - 9:00</span>
+                                                    </p>
+                                                    <p class="schedule-tabs__data-text">
+                                                        <span>- Фриттата с сыром и кабачками</span>
+                                                    </p>
+                                                    <p class="schedule-tabs__data-weight">
+                                                        <span>170гр</span>
+                                                    </p>
+                                                </li>
+                                                <li class="schedule-tabs__data-item">
+                                                    <p class="schedule-tabs__data-text">
+                                                        <span class="schedule-tabs__data-ration">Завтрак</span>
+                                                        <span>7:00 - 9:00</span>
+                                                    </p>
+                                                    <p class="schedule-tabs__data-text">
+                                                        <span>- Фриттата с сыром и кабачками</span>
+                                                    </p>
+                                                    <p class="schedule-tabs__data-weight">
+                                                        <span>170гр</span>
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                            <button class="order-tabs__btn btn btn-primary">Заказать</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="programs-content__item">two 2</div>
+                                <div class="programs-content__item">two 3</div>
+                                <div class="programs-content__item">two 4</div>
+                                <div class="programs-content__item">two 5</div>
+                                <div class="programs-content__item">two 6</div>
+                                <div class="programs-content__item">two 7</div>
+                            </div>
+                        </div>
+
+                        <div class="tabs-content__item">2</div>
+                    </div>
+
+                </div>
+            </div>
+            <section class="gallery section">
+                <h2 class="gallery__title h2">Фото блюд</h2>
+
+                <div class="swiper gallery__slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <picture>
+                                <img src="images/gallery/gallery-1.webp" width="380" height="570" alt="блюдо">
+                            </picture>
+                        </div>
+                        <div class="swiper-slide">
+                            <picture>
+                                <img src="images/gallery/gallery-2.webp" width="380" height="570" alt="блюдо">
+                            </picture>
+                        </div>
+                        <div class="swiper-slide">
+                            <picture>
+                                <img src="images/gallery/gallery-3.webp" width="380" height="570" alt="блюдо">
+                            </picture>
+                        </div>
+                        <div class="swiper-slide">
+                            <picture>
+                                <img src="images/gallery/gallery-4.webp" width="380" height="570" alt="блюдо">
+                            </picture>
+                        </div>
+                        <div class="swiper-slide">
+                            <picture>
+                                <img src="images/gallery/gallery-5.webp" width="380" height="570" alt="блюдо">
+                            </picture>
+                        </div>
+                        <div class="swiper-slide">
+                            <picture>
+                                <img src="images/gallery/gallery-6.webp" width="380" height="570" alt="блюдо">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+            <!-- <section class="gallery">
+  <h2 class="gallery__title h2">Фото блюд</h2>
+
+  <div class="slider gallery__slider">
+    <div class="slider__wrapper">
+      <div class="slider__item">
+        <img src="images/gallery/gallery-1.jpg" alt="" />
+      </div>
+      <div class="slider__item">
+        <img src="images/gallery/gallery-2.jpg" alt="" />
+      </div>
+      <div class="slider__item">
+        <img src="images/gallery/gallery-3.jpg" alt="" />
+      </div>
+      <div class="slider__item">
+        <img src="images/gallery/gallery-4.jpg" alt="" />
+      </div>
+      <div class="slider__item">
+        <img src="images/gallery/gallery-5.jpg" alt="" />
+      </div>
+      <div class="slider__item">
+        <img src="images/gallery/gallery-6.jpg" alt="" />
+      </div>
+    </div>
+  </div>
+
+  <button class="slider__arrow slider__prev">Prev</button>
+  <button class="slider__arrow slider__next">Next</button>
+
+  <div class="dots">
+    <span class="dot active"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+</section> -->
+
+            <section class="order section">
+                <div class="container">
+                    <div class="order__row">
+                        <div class="order__col">
+                            <h3 class="order__title h2">Оформить заказ</h3>
+                            <p class="order__text">Обсудите все детали заказа по телефону
+                                или сами укажите все подробности онлайн</p>
+                            <form action="#" class="order__form form">
+                                <div class="form__group">
+                                    <label class="form__label form__label-name" for="name">Имя</label>
+                                    <input type="text" id="name" class="form__input input-name" placeholder="Иван">
+                                </div>
+                                <div class="form__group">
+                                    <label class="form__label form__label-phone" for="phone">Номер телефона</label>
+                                    <input type="number" id="phone" class="form__input input-name" placeholder="9371234567">
+                                </div>
+                                <div class="form__group form__group_checkbox">
+                                    <input type="checkbox" name="discount" id="discount" class="form__checkbox" checked>
+                                    <label for="discount" class="form__label-checkbox">discount</label>
+                                    <p class="form__checkbox-text">Тест-день! Получить скидку -30%?</p>
+                                </div>
+                                <div class="form__group form__group_checkbox">
+                                    <input type="checkbox" name="agree" id="agree" class="form__checkbox">
+                                    <label for="agree" class="form__label-checkbox">agree</label>
+                                    <p class="form__checkbox-text">Согласен <span>с условиями сотрудничества</span></p>
+                                </div>
+                                <button type="submit" class="form__btn-tranparent btn btn-transparent">Заказ по телефону</button>
+                                <div class="form__text-or">или</div>
+                                <button type="submit" class="form__btn-primary btn btn-primary">Онлайн заказ</button>
+                            </form>
+                        </div>
+                        <div class="questions">
+                            <h3 class="questions__title h2">Часто задаваемые вопросы</h3>
+                            <div class="accordeon">
+                                <div class="accordeon-item">
+                                    <div class="accordeon-item__head">Как осуществляется доставка правильного питания?</div>
+                                    <p class="accordeon-item__text">Все продукты для приготовления правильного питания закупаются только с сертификатами, а рационы готовятся на современной и безопасной кухне ночью перед приездом к Вам!
+                                    </p>
+                                </div>
+
+                                <div class="accordeon-item">
+                                    <div class="accordeon-item__head">Можно ли менять время доставки\место?</div>
+                                    <p class="accordeon-item__text">Все продукты для приготовления правильного питания закупаются только с сертификатами, а рационы готовятся на современной и безопасной кухне ночью перед приездом к Вам!
+                                    </p>
+                                </div>
+
+                                <div class="accordeon-item">
+                                    <div class="accordeon-item__head">Как и в чем приезжает еда?</div>
+                                    <p class="accordeon-item__text">Все продукты для приготовления правильного питания закупаются только с сертификатами, а рационы готовятся на современной и безопасной кухне ночью перед приездом к Вам!
+                                    </p>
+                                </div>
+
+                                <div class="accordeon-item">
+                                    <div class="accordeon-item__head">Как и в чем приезжает еда?</div>
+                                    <p class="accordeon-item__text">Все продукты для приготовления правильного питания закупаются только с сертификатами, а рационы готовятся на современной и безопасной кухне ночью перед приездом к Вам!
+                                    </p>
+                                </div>
+
+                                <div class="accordeon-item">
+                                    <div class="accordeon-item__head">Как и в чем приезжает еда?</div>
+                                    <p class="accordeon-item__text">Все продукты для приготовления правильного питания закупаются только с сертификатами, а рационы готовятся на современной и безопасной кухне ночью перед приездом к Вам!
+                                    </p>
+                                </div>
+
+                                <div class="accordeon-item">
+                                    <div class="accordeon-item__head">Как и в чем приезжает еда?</div>
+                                    <p class="accordeon-item__text">Все продукты для приготовления правильного питания закупаются только с сертификатами, а рационы готовятся на современной и безопасной кухне ночью перед приездом к Вам!
+                                    </p>
+                                </div>
+
+                                <div class="accordeon-item">
+                                    <div class="accordeon-item__head">Как и в чем приезжает еда?</div>
+                                    <p class="accordeon-item__text">Все продукты для приготовления правильного питания закупаются только с сертификатами, а рационы готовятся на современной и безопасной кухне ночью перед приездом к Вам!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__row">
+                    <nav class="footer__nav nav-footer">
+                        <ul class="nav-footer__list">
+                            <li class="nav-footer__item"><a href="" class="nav-footer__link">Програмы питания</a></li>
+                            <li class="nav-footer__item"><a href="" class="nav-footer__link">О нас</a></li>
+                            <li class="nav-footer__item"><a href="" class="nav-footer__link">Бизнес-ланчи</a></li>
+                            <li class="nav-footer__item"><a href="" class="nav-footer__link">Gastro Shop</a></li>
+                            <li class="nav-footer__item"><a href="" class="nav-footer__link">Блог</a></li>
+                        </ul>
+                    </nav>
+                    <div class="footer__logo">
+                        <img src="images/footer/footer-logo.png" width="211" height="119" alt="логотип">
+                    </div>
+                    <div class="footer__info info-footer">
+                        <div class="info-footer__conditions"><a href="">Условия<br />сотрудничества</a></div>
+                        <div class="info-footer__faq"><a href="">faq</a></div>
+                        <div class="info-footer__social social-footer">
+                            <ul class="social-footer__list">
+                                <li class="social-footer__item">
+                                    <a href="" class="social-footer__link">
+                                        <svg class="social-footer__icon">
+                                            <use href="images/sprite.svg#svg--instagram" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="social-footer__item">
+                                    <a href="" class="social-footer__link">
+                                        <svg class="social-footer__icon">
+                                            <use href="images/sprite.svg#svg--facebook" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="social-footer__item">
+                                    <a href="" class="social-footer__link">
+                                        <svg class="social-footer__icon">
+                                            <use href="images/sprite.svg#svg--viber" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="social-footer__item">
+                                    <a href="" class="social-footer__link">
+                                        <svg class="social-footer__icon">
+                                            <use href="images/sprite.svg#svg--telegram" />
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="info-footer__social"></div>
+                        <div class="info-footer__phone">
+                            <a href="tel:+380689494919" class="phone__link">+38 (068) 949-49-19</a>
+                        </div>
+                    </div>
+                    <v>
+                </div>
+        </footer>
+    </div>
+
+    <script src="js/bundle.min.js"></script>
+</body>
+
+</html>
